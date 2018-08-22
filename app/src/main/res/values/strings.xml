@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Fruit Quiz </string>
+
+    <!-- Quiz title -->
+    <string name="quiz_name">How well do you know your fruits?</string>
+
+    <!-- Question 1 -->
+    <string name="question_1">Question 1: Is this longan or lychee?</string>
+
+    <!-- Longan -->
+    <string name="longan">Longan</string>
+
+    <!-- Lychee -->
+    <string name="lychee">Lychee</string>
+
+    <!--Question 2 -->
+    <string name="question_2">Question 2: Are tomatoes fruits or vegetables?</string>
+
+    <!--Question 3-->
+    <string name="question_3">Question 3: Which fruit(s) is a melon? </string>
+
+    <!--Papaya-->
+    <string name="papaya">Papaya</string>
+
+    <!--Cantaloupe-->
+    <string name="cantaloupe">Cantaloupe</string>
+
+    <!--Honeydew -->
+    <string name="honeydew">Honeydew</string>
+
+    <!--Question4 -->
+    <string name="question_4">Question 4: How do you know if a banana is ripe? </string>
+
+    <!-- String for Banana detail yellow brown spots-->
+    <string name="brown_spot_banana">Has brown spots</string>
+
+    <!-- String for banana detail yellow -->
+    <string name="yellow_banana">Is fully yellow</string>
+
+    <!-- String for green banana detail -->
+    <string name="green_banana">Is fully green</string>
+
+    <!-- Question 5 -->
+    <string name="question_5">Question 5: Is red the only color of strawberries?</string>
+
+    <!-- String for strawberry true question -->
+    <string name="strawberry_true">True</string>
+
+    <!-- String for strawberry false question -->
+    <string name="strawberry_false">False</string>
+
+    <!-- String title for point summary-->
+    <string name="points_obtained_title">Points Obtained</string>
+
+    <!-- Score number for point summary-->
+    <string name="score">0 out of 5</string>
+
+    <!-- Submit button -->
+    <string name="submit">Submit Answers</string>
+
+
+
+
+</resources>

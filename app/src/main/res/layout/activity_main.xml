@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title name-->
+        <TextView
+            style="@style/TitleTextStyle"
+            android:text="@string/quiz_name" />
+
+        <!-- Title fruit image-->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:src="@drawable/fruits" />
+
+        <!-- Question 1 -->
+        <TextView
+           style="@style/QuestionTextStyle"
+            android:text="@string/question_1" />
+
+        <!-- Question 1 picture-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:src="@drawable/longan" />
+
+        <!-- Question 1 -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <!-- Longan RadioButton -->
+        <RadioButton
+            android:id="@+id/question1_longan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/longan" />
+
+        <!-- Lychee RadioButton -->
+        <RadioButton
+            android:id="@+id/question1_lychee"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/lychee" />
+        </RadioGroup>
+
+        <!-- Question 2-->
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_2" />
+
+        <!-- Tomato image question2 -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/tomato" />
+
+        <!-- Tomato EditText-->
+        <EditText
+            android:id="@+id/question2_choice"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:hint="Type in Fruit or Vegetable"
+            android:inputType="textCapWords" />
+
+        <!-- Question 3 -->
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_3" />
+
+        <!-- Question 3 image watermelon -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/watermelon" />
+
+        <!-- Papaya checkbox-->
+        <CheckBox
+            android:id="@+id/question3_papaya"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/papaya" />
+
+        <!-- Honeydew checkbox-->
+        <CheckBox
+            android:id="@+id/question3_honeydew"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/honeydew" />
+
+        <!-- Cantaloupe checkbox-->
+        <CheckBox
+            android:id="@+id/question3_cantaloupe"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/cantaloupe" />
+
+        <!-- Question 4 -->
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_4" />
+
+        <!-- Question 4 banana image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/bananas" />
+
+        <!-- green banana checkbox-->
+        <CheckBox
+            android:id="@+id/question4_banana_green"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/green_banana" />
+
+        <!-- Yellow banana checkbox -->
+        <CheckBox
+            android:id="@+id/question4_banana_yellow"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/yellow_banana" />
+
+        <!--yellow-brown spot banana checkbox-->
+        <CheckBox
+            android:id="@+id/question4_banana_brown"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/brown_spot_banana" />
+
+        <!-- Question 5-->
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_5" />
+
+        <!--Strawberry image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/strawberry" />
+
+        <!-- Question 5 RadioGroup with RadioButtons-->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <!-- Strawberry RadioButton true -->
+        <RadioButton
+            android:id="@+id/question5_strawberry_true"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/strawberry_true" />
+
+        <!-- Strawberry RadioButton false-->
+        <RadioButton
+            android:id="@+id/question5_strawberry_false"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/strawberry_false" />
+
+        </RadioGroup>
+
+        <!-- Points Summary Title-->
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/points_obtained_title" />
+
+        <!-- Points text -->
+        <TextView
+            android:id="@+id/score"
+            style="@style/QuestionTextStyle"
+            android:layout_marginBottom="20dp"
+            android:text="@string/score" />
+
+        <!-- Submit answers button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>
